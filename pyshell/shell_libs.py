@@ -39,6 +39,7 @@ class PyShell(object):
         self.curr_cmd = None
         self.cmd_out = ''
         self.cmd_err = ''
+        self.cmd_warning = ''
         self.cmd_ret = 0
         self.dry_run = False
 
